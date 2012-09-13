@@ -539,11 +539,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>variable.other.ic</string>
+							<string>support.function.ic</string>
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>(\!\~|!|!=|=~|&gt;=|&gt;|&lt;|%|&lt;=|\*|\+|-|eq|ne|lt|lte|gt|gte|&amp;|&amp;&amp;|\|\|)</string>
+					<string>\b([A-Za-z0-9_\-\\\/]+)\b</string>
 				</dict>
 				<dict>
 					<key>captures</key>
@@ -551,11 +551,11 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>support.function.ic</string>
+							<string>variable.other.ic</string>
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>\b([A-Za-z0-9_\-\\\/]+)\b</string>
+					<string>(\!\~|!|!=|=~|&gt;=|&gt;|&lt;|%|&lt;=|\*|\+|-|eq|ne|lt|lte|gt|gte|&amp;|&amp;&amp;|\|\|)</string>
 				</dict>
 				<dict>
 					<key>include</key>
