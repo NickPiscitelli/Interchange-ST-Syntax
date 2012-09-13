@@ -88,6 +88,30 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>Documentation +&lt;&lt;EOD</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>comment.block.ic</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>comment.block.ic</string>
+			<key>end</key>
+			<string>EOD</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>comment.block.ic</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>(?i)(\[ *(calcn|perl)\b.*? *\])|Routine +&lt;&lt;EOR</string>
 			<key>beginCaptures</key>
 			<dict>
