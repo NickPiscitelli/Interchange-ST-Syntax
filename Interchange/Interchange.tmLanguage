@@ -468,6 +468,30 @@
 				</dict>
 				<dict>
 					<key>comment</key>
+					<string>Inline IC regex breaks page when containing quote characters.</string>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>support.function.ic</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>control.operator.ic</string>
+						</dict>
+						<key>3</key>
+						<dict>
+							<key>name</key>
+							<string>string.quoted.tt</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>\b([A-Za-z]+) +((?:=|\!)~) +((?:m|s|\/|y|tr|qr)[^\]]+)</string>
+				</dict>
+				<dict>
+					<key>comment</key>
 					<string>This is a bad hack for things like the if scratch tag.</string>
 					<key>captures</key>
 					<dict>
