@@ -434,7 +434,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>(compare)\=(`|'|"|\|)</string>
+					<string>(compare|object\.mv_results)\=(`|'|"|\|)</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
@@ -462,6 +462,10 @@
 					</dict>
 					<key>patterns</key>
 					<array>
+						<dict>
+							<key>include</key>
+							<string>#tmpl-container-tag</string>
+						</dict>
 						<dict>
 							<key>include</key>
 							<string>source.perl</string>
